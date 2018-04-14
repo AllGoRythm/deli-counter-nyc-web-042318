@@ -5,7 +5,7 @@ def line(current)
   message = "The line is currently:" + my_line.to_s
 
   if katz_deli.length == 0
-    "The line is currently empty."
+    puts "The line is currently empty."
 =begin
   else
     my_line.push("[i]" + ". " + "current[i]")
