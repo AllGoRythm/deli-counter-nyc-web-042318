@@ -10,5 +10,5 @@ def line(current)
     my_line.push("[i]" + ". " + "my_line[i]")
     i += 1
   end
-  puts message.to_s
+  puts message
 end
