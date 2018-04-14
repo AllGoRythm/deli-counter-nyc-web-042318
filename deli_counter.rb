@@ -18,7 +18,7 @@ def line(katz_deli)
 
   end
 
-
+puts new_line
 
 end
 
