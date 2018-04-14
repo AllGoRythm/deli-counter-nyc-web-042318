@@ -1,11 +1,12 @@
 katz_deli = []
 
 def line(current)
-  my_line = ["The line is currently:" ]
+  my_line = []
 
 i = 0
   while i < current.length
-    my_line += my_line.push("#{i + 1} #{current[i]} ")
+    my_line += my_line.push("The line is currently: #{i + 1} #{current[i]} ")
+    i += 1
     puts my_line
   end
 
