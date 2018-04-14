@@ -4,7 +4,7 @@ def line(current)
   my_line = []
   message = "The line is currently:" + my_line.to_s
 
-  if current.length == 0
+  if katz_deli == 0
     "The line is currently empty."
   else
     my_line.push("[i]" + ". " + "current[i]")
