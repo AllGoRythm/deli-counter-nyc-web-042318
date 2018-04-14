@@ -11,7 +11,7 @@ def line(katz_deli)
     new_deli = "The line is currently:" + new_line.to_s
 
     i = 1
-    while katz_deli.length > 0
+    while katz_deli.length >= 1
       new_line.push("[i]" + ". " + "current[i]")
       i += 1
     end
