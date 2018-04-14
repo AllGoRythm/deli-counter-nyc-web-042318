@@ -7,7 +7,7 @@ def line(current)
   if current.length <= 0
     puts "The line is currently empty."
   elsif current.length > 0
-    my_line.push("[i]" + ". " + "my_line[i]")
+    my_line.push("[i]" + ". " + "current[i]")
     i += 1
   end
   puts message
