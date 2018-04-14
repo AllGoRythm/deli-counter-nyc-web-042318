@@ -12,7 +12,8 @@ def line(katz_deli)
 
     i = 0
     while katz_deli.length > new_line.length
-
+      new_line.push("[i]" + ". " + "current[i]")
+      i += 1
     end
 
   end
