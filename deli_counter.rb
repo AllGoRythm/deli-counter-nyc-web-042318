@@ -13,5 +13,5 @@ def line(current)
     my_line.push("[i]" + ". " + "current[i]")
     i += 1
   end
-
+  return message
 end
