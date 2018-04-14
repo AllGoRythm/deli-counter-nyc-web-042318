@@ -9,6 +9,7 @@ def line(katz_deli)
   elsif katz_deli.length >= 1
     new_line = []
     katz_deli = "The line is currently:" + new_line.to_s
+    
   end
 
 
