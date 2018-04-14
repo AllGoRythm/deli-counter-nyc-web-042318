@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(current)
+def line(katz_deli)
   my_line = []
   message = "The line is currently:" + my_line.to_s
 
@@ -8,6 +8,7 @@ def line(current)
     puts "The line is currently empty."
   end
 
+  
 
 end
 
