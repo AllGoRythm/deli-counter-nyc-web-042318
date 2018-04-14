@@ -15,10 +15,10 @@ def line(katz_deli)
       new_line.push("[i]" + ". " + "current[i]")
       i += 1
     end
+    puts katz_deli
 
   end
 
-puts katz_deli
 
 end
 
