@@ -10,6 +10,6 @@ i = 0
     return my_line
   end
 
-  return "The line is currently empty."
+  puts "The line is currently empty."
 
 end
