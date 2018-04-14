@@ -6,7 +6,6 @@ def line(current)
 i = 0
   while i < current.length
     my_line += my_line.push("The line is currently: #{i + 1} #{current[i]} ")
-    i += 1
     puts my_line
   end
 
