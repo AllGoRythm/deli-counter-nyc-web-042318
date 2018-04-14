@@ -11,7 +11,7 @@ def line(katz_deli)
     katz_deli = "The line is currently:" + new_line.to_s
 
     i = 0
-    while katz_deli.length > new_line
+    while katz_deli.length > new_line.length
 
     end
 
