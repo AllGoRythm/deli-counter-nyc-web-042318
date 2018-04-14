@@ -8,5 +8,6 @@ def line(current)
     puts "The line is currently empty."
   end
 
-  
+  while 
+
 end
