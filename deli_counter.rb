@@ -7,5 +7,5 @@ def line(current)
     my_line << person
     return my_line
   end
-  "The line is currently empty."
+  return "The line is currently empty."
 end
