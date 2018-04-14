@@ -7,7 +7,8 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   elsif katz_deli.length >= 1
-    katz_deli = "The line is currently:" + my_line.to_s
+    new_line
+    katz_deli = "The line is currently:" + new_line.to_s
   end
 
 
