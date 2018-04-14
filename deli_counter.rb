@@ -6,11 +6,9 @@ def line(current)
 
   if katz_deli.length == 0
     puts "The line is currently empty."
-=begin
   else
     my_line.push("[i]" + ". " + "current[i]")
     i += 1
-=end
   end
 
 end
