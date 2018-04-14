@@ -5,5 +5,6 @@ def line(current)
 
   current.each do |person|
     my_line << person
-
+  end
+  "The line is currently empty."
 end
