@@ -8,6 +8,8 @@ def line(current)
     puts "The line is currently empty."
   end
 
-  while 
+  i = 1
+  while my_line.length > 0
+
 
 end
