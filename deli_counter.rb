@@ -3,7 +3,7 @@ katz_deli = []
 def line(current)
   my_line = []
 
-  current.each do ||
+  current.each do |person|
 
 
 end
