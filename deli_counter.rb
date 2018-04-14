@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(current)
-  my_line = []
+  my_line = ["The line is currently:"]
 
 i = 0
   while i < current.length
