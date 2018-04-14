@@ -5,8 +5,8 @@ def line(current)
 
 i = 0
   current.each do |person|
-    my_line << person
-
+    my_line << person[i]
+    i += 1
     return my_line
   end
 
