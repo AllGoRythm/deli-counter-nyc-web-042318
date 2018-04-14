@@ -12,5 +12,5 @@ def line(current)
     i += 1
 =end
   end
-  puts message
+
 end
