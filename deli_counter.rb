@@ -8,14 +8,14 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     new_line = []
-    katz_deli = "The line is currently:" + new_line.to_s
+    new_deli = "The line is currently:" + new_line.to_s
 
     i = 0
     while katz_deli.length > new_line.length
       new_line.push("[i]" + ". " + "current[i]")
       i += 1
     end
-    puts katz_deli
+    puts new_deli
 
   end
 
