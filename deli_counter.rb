@@ -10,6 +10,8 @@ def line(current)
 
   i = 1
   while my_line.length > 0
-
+    my_line.push("[i]" + ". " + "current[i]")
+    i += 1
+  end
 
 end
