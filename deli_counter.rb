@@ -9,7 +9,12 @@ def line(katz_deli)
   elsif katz_deli.length >= 1
     new_line = []
     katz_deli = "The line is currently:" + new_line.to_s
-    
+
+    i = 0
+    while katz_deli.length > new_line
+
+    end
+
   end
 
 
